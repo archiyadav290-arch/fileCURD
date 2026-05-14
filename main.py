@@ -3,7 +3,7 @@
 #Project - CRUD Operations
 
 from pathlib import Path
-import os
+import os 
 def readfileandfolder():
         try:
             p = Path('')
@@ -134,7 +134,12 @@ def delete_folder():
 def create_file_in_folder():
     folder_name = input('enter name of your folder:')
     file_name = input('enter name of your file:')
-    p = Path
+    p = Path (folder_name)/file_name
+    if p.exists():
+       print('FILE ALREADY EXISTS')
+    else:
+        pass
+
 
 while True:
 

@@ -90,3 +90,12 @@ rev=1
 for i in range(1,n+1):
     rev=rev*10
 """
+
+
+#1. Ask the user to enter a number and print all prime numbers up to that number.
+
+n=int(input("enter number"))
+for i in range(2,n+1):
+    if(n%2==0):
+        print(i)
+
